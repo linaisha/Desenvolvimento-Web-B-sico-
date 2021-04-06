@@ -1,0 +1,128 @@
+/*fonte geral da pagina e plano de fundo (inexistente)*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+/*links*/
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: #989898;
+}
+
+a:visited{
+	color: #989898;
+}
+
+a:hover{
+	color: #989898;
+}
+
+a:active{
+	color: #000;
+}
+
+/*cabeçalho*/
+header{
+	display: flex;
+	text-align: center;
+}
+
+#logo{
+	align-self: left;
+}
+
+.menu{
+	margin: 2% 0 0 60%;
+	padding: 0;
+	width: auto;
+	height: 30px;
+}
+
+.menu1{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: 30px;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu li{
+	display: inline;
+	float: left;
+	padding:0px;
+	margin: 0;
+	width: 80px;
+}
+
+/*banner*/
+#banner{
+	position: relative;
+}
+.cabeca{
+	width: 100%;
+	position: absolute;
+}
+
+.textobanner{
+	position: absolute;
+	margin-top: 100px;
+	width: 450px;
+	height: 250px;
+	background-color: rgba(000,0,0,0.6);
+}
+
+#h1banner{
+	color: #fff;
+	font-size: 40px;
+}
+
+#descricaobanner{
+	color: #fff;
+}
+
+#linkbanner{
+	color: #57EBF5;
+}
+
+/*icones e texto*/
+
+.conteudo ul{
+	list-style: none;
+	margin: 0;
+}
+
+.conteudo{
+	padding: 0;
+	margin-top: 650px;
+}
+
+.conteudo img{
+	width: 300px;
+	height: 250px;
+	padding: 0 20px;
+}
+
+.conteudo p{
+	width: 300px;
+}
+
+.conteudo h1{
+	width: 150px;
+	padding: 0 30px;
+}
+.conteudo li{
+	display: inline;
+	float: left;
+	padding-left: 20px;
+}
+
+.footer{
+	position: bottom;
+}
