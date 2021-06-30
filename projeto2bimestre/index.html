@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bests do ano - Universidade Negativo</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="authors" content="Elisa Martins & Kassiel Sehnem">
+    <link rel="icon" href="img/negativo.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <a class="navbar-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="gold" class="bi bi-hand-thumbs-up-fill" viewBox="0 0 16 16"><path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/></svg>
+  &nbsp;Melhores of the Year
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+<!-- Fim navbar -->
+
+<div class="jumbotron jumbotron-fluid bg-jumbotron">
+  <div class="container bg-container text-white">
+    <h1 class="display-4">Melhores of the year Awards</h1>
+    <p class="lead">Premiação semestral para professores e mestres da Universidade Negativo.</p>
+    <br>
+  </div>
+</div>
+
+<div class="container bg-light">
+  <div class="row">
+    <div class="col">
+      <img src="img/disconto.png">
+      <br><br>
+      <h3>Diego Disconto</h3>
+      <h6>Professor de Jaga e Journalscript</h6>
+      <p>Indicado por sua metodologia inalcansável, conhecido por só conseguir treinar os melhores, porque eles já são melhores. Possui uma careca brilhante, assim como o futuro de seus alunos bem sucedidos.</p>
+      <button type="button" class="btn btn-primary btn-lg"  onclick="errado()">Votar &raquo;</button>
+    </div>
+    <div class="col">
+      <img src="img/green.png" >
+      <br><br>
+      <h3>Gabrielle Green</h3>
+      <h6>Professora de Swag Design</h6>
+      <p>Indicada por ser a melhor professora do universo, quem queremos enganar? A única possível vencedora desse prêmio. Com cabelos encaracolados esvoaçantes, prende a atenção de qualquer aluno em sua aula.</p>
+      <button type="button" class="btn btn-success btn-lg"  onclick="ehTetra()">Votar &raquo;</button>
+    </div>
+    <div class="col">
+      <img src="img/mario.png">
+      <br><br>
+      <h3>Mario Harmario</h3>
+      <h6>Professor de Projetos de Renovação</h6>
+      <p>Hey, it's me Mario! Indicato dal suo stile e dal suo aspetto sorprendente, questo insegnante fa avere a chiunque una nuova prospettiva sul mercato del lavoro e su come le aziende non si preoccupino degli studenti e dei loro progetti.</p>
+      <button type="button" class="btn btn-primary btn-lg" onclick="errado()">Votar &raquo;</button>
+    </div>
+  </div>
+<hr>
+</div>
+
+
+    <footer class="container">
+      <p>&copy; Melhores Students - 2021</p>
+    </footer>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      function errado(){
+        document.write("<img src=\'img/errado.png\'>")
+        document.write("<h1>Escolheu errado!</h1>")
+        document.write("<h2>E tu sabe quem é a escolha certa!</h2>")
+        document.write("<a href=\'index.html\'>Voltar</a>")
+      }
+
+      function ehTetra(){
+        document.write("<img src=\'img/premio.png\'>")
+        document.write("<h1>Parabéns</h1>")
+        document.write("<h2> Professora Gabrielle Green</h2>")
+        document.write("<p>Votada como a melhor professora do ano com um total de 44.270.853 votos, isso é a mesma quantidade de pessoas que residem na Uganda que escolheram você! Pode comemorar!</p>")
+        document.write("<a href=\'index.html\'>Voltar</a>")
+      }
+    </script>
+  </body>
+</html>
